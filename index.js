@@ -8,7 +8,7 @@ import session from "express-session";
 
 
 config()
-const url = process.env.MONGO_URL;
+const url = process.env.MONGO_URI;
 const app = Express()
 const port = 3000
 
